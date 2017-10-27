@@ -1,0 +1,20 @@
+{
+   "apps": [
+      {
+         "script": "nextServer.js",
+         "name": "Next",
+         "cwd": "./client",
+         "env": {
+            "NODE_ENV": "development"
+         }
+      },
+      {
+         "script": "server.js",
+         "name": "ApiServer",
+         "cwd": "./server",
+         "env": {
+            "NODE_ENV": "development"
+         }
+      }
+   ]
+}

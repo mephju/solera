@@ -1,0 +1,19 @@
+{
+  "name": "basketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run install:next && npm run install:server",
+    "install:next": "cd client && yarn",
+    "install:server": "cd server && yarn",
+    "start": "pm2 start processes.json",
+    "stop": "pm2 stop processes.json"
+  },
+  "author": "Kolja Kirchner",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^2.7.2",
+    "yarn": "^1.2.1"
+  }
+}
