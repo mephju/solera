@@ -8,7 +8,8 @@
     "install:next": "cd client && yarn",
     "install:server": "cd server && yarn",
     "start": "pm2 start processes.json",
-    "stop": "pm2 stop processes.json"
+    "stop": "pm2 stop processes.json",
+    "clean": "find . -name 'node_modules' -exec rm -rf '{}' +"
   },
   "author": "Kolja Kirchner",
   "license": "ISC",
