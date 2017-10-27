@@ -1,4 +1,10 @@
-# Get this project up and running
+# Solera
 
-npm install
+
+
+## Get this project up and running
+
+```bash
+npm install 
 npm start
+```
