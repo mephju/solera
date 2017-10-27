@@ -9,4 +9,4 @@ npm install
 npm start
 ```
 
-Then open `open http://localhost:3000` in a browser.
+Then open `http://localhost:3000` in a browser.
