@@ -36,3 +36,4 @@ npm-debug.log
 .sass-cache
 
 .esm-cache
+.next/
